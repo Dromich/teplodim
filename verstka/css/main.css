@@ -142,9 +142,11 @@ body {
 	background-color: rgba(0,0,0,.8);
 
 }
-#perevagi{
+#perevagi {
 	background-color: #ebebeb;
 	color: #252525;
+	padding-bottom: 5%;
+	padding-top: 2%;
 }
 .radiator {
 	display: block;
