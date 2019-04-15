@@ -62,3 +62,36 @@ body {
 .hidden {
 	display: none;
 }
+
+
+#main_menu {
+	position: fixed;
+	width: 100%;
+	background-color: #fff;
+}
+.main_menu {
+	display: block;
+	list-style: none;
+	margin: 45px auto;
+	padding: 0;
+	width: 80%;
+}
+.main_menu li {
+	display: inline-block;
+	margin-left: 10px;
+}
+
+#logo_a img {
+	max-width: 100px;
+	display: block;
+	margin: 10px auto;
+}
+.top_phone {
+	padding-top: 25px;
+}
+.top_phone a {
+	display: block;
+	/* line-height: auto; */
+	font-size: 22px;
+	color: #333;
+}
