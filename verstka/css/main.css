@@ -106,6 +106,24 @@ body {
 	font-size: 22px;
 	color: #333;
 }
+.slider_item h2 {
+	margin-top: 15%;
+	margin-left: 5%;
+	font-size: 4.8rem;
+	text-transform: uppercase;
+	color: #fff;
+	background-color: #0090ff;
+	width: 320px;
+	padding: 10px;
+	text-align: center;
+}
+.slider_item p {
+	max-width: 30%;
+	margin-left: 5%;
+	color: #333;
+	background-color: rgba(255,255,255,.7);
+	padding: 10px;
+}
 #services {
 	padding-top: 15px;
 	padding-bottom: 25px;
@@ -230,7 +248,7 @@ background-color: #f5f5f5;
 	width: 20%;
 	float: left;
 	overflow: hidden;
-	height: 150px;
+	height: 210px;
 }
 .xfieldimagegallery.galery li img {
 	width: 100%;
