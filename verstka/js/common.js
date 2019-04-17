@@ -45,3 +45,20 @@ $(window).load(function() {
 	$(".loader").delay(400).fadeOut("slow");
 
 });
+
+$('.flowing-scroll').on( 'click', function(){ 
+
+
+
+	let topMn = $('#main_menu').height();
+    
+    let dest = $(this).attr('data-target'); 
+    if(dest !== undefined && dest !== '') { 
+        $('html').animate({ 
+            scrollTop: $(dest).offset().top - topMn 
+        }, 1200 
+        );
+	}
+	//$('#main_menu').slideToggle();
+    return false;
+});
