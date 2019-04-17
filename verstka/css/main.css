@@ -262,3 +262,14 @@ background-color: #f5f5f5;
 	width: 50px !important;
 	height: 50px !important;
 }
+.cont_inf {
+	list-style: none;
+	font-size: 20px;
+	color: #333;
+}
+.cont_inf li {
+	margin: 10px auto;
+}
+.cont_inf a {
+	color: #333;
+}
