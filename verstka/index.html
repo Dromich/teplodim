@@ -277,6 +277,28 @@
 	</section>
 
 
+<section id="contacts">
+<div class="container">
+	<div class="row">
+			<h2 class="service_title">Контактна інформація</h2>
+	<div class="col-md-4 col-xs-12">
+<ul class="cont_inf">
+	<li><a href="tel:+380504507052">(050) 450-70-52 </a></li>
+	<li><a href="tel:+380982387125">(098) 238-71-25</a></li>
+	<li>м. Тернопіль</li>
+	<li>вул. Об'їзна 12/25.1</li>
+	<li><a href="mailto:main_mail@gmail.com">main_mail@gmail.com</a></li>
+</ul>
+		
+	</div>
+	<div class="col-md-8 col-xs-12">
+			<div id="mapdiv"></div>
+	</div>	
+	</div>
+</div>
+</section>	
+
+
 	<div class="hidden"></div>
 
 	<div class="loader">
@@ -299,6 +321,28 @@
 
 	<link rel="stylesheet" href="js/fotorama/fotorama.css">
 	<script src="js/fotorama/fotorama.js"></script>
+
+	<script src="js/OpenLayers.js"></script>
+
+	<script>
+			map = new OpenLayers.Map("mapdiv");
+			map.addLayer(new OpenLayers.Layer.OSM());
+		
+			var lonLat = new OpenLayers.LonLat(25.5595592  , 49.5414111 )
+				  .transform(
+					new OpenLayers.Projection("EPSG:4326"), // transform from WGS 1984
+					map.getProjectionObject() // to Spherical Mercator Projection
+				  );
+				  
+			var zoom=17;
+		
+			var markers = new OpenLayers.Layer.Markers( "Markers" );
+			map.addLayer(markers);
+			
+			markers.addMarker(new OpenLayers.Marker(lonLat));
+			
+			map.setCenter (lonLat, zoom);
+		  </script>
 
 </body>
 
