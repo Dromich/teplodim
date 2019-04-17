@@ -224,9 +224,13 @@ background-color: #f5f5f5;
 }
 .hw_ttl span {
 	width: 60%;
-	display: block;
-	margin: 20px;
-	font-size: 13px;
+    display: block;
+    margin: 20px;
+    font-size: 18px;
+    background-color: #0090ffc4;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
 }
 .hw_ttl h3 {
 	font-size: 5rem;
