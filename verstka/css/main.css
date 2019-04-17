@@ -133,6 +133,7 @@ body {
 	text-align: center;
 	font-size: 4rem;
 	text-transform: uppercase;
+	color: #0090ff;
 }
 .service_title span {
 	font-size: 2rem;
@@ -140,6 +141,13 @@ body {
 	width: 60%;
 	text-align: center;
 	margin: 5px auto;
+	color: #333;
+}
+.service_title2 {
+	text-align: center;
+	font-size: 4rem;
+	text-transform: uppercase;
+	color: #333;
 }
 .service_item {
 	height: 240px;
@@ -305,4 +313,8 @@ background-color: #f5f5f5;
 }
 .cont_inf a {
 	color: #333;
+}
+#perevagi {
+	background-color: #ebebeb;
+	padding-bottom: 5%;
 }
