@@ -81,7 +81,17 @@ body {
 	display: inline-block;
 	margin-left: 10px;
 }
+.main_menu li a {
+	color: #333;
+	text-transform: uppercase;
+	transition: all .8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.main_menu li a:hover {
+	color: #0090ff;
+	text-decoration: none;
+	border-bottom: 1px solid;
 
+}
 #logo_a img {
 	max-width: 100px;
 	display: block;
