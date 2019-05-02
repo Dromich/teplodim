@@ -17,11 +17,11 @@
 
 body input:focus:required:invalid,
 body textarea:focus:required:invalid {
-	
+	color: red;
 }
 body input:required:valid,
 body textarea:required:valid {
-	
+	color: #333;
 }
 
 html.js .loader {
