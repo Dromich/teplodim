@@ -177,3 +177,13 @@ body {
 .first_slide_ul span {
 	color: #FFC834;
 }
+#project_price_1 {
+	width: 100%;
+	margin: 0 auto;
+	padding: 5% 0 5%;
+	background-image: url(../img/t_2.png), url(../img/bg_2.jpg);
+	background-repeat: no-repeat;
+	background-position: right center, center center;
+	background-size: auto, cover;
+	text-align: center;
+}
