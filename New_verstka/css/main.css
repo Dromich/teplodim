@@ -187,3 +187,45 @@ body {
 	background-size: auto, cover;
 	text-align: center;
 }
+.items {
+	position: relative;
+}
+.items_title {
+	position: absolute;
+	right: -12%;
+	z-index: 2;
+	background-color: #FFBE10;
+	text-transform: uppercase;
+	font-weight: 600;
+	padding: 10px;
+	margin-top: 10%;
+	color: #000;
+}
+.items_title h2 {
+	font-size: 38px;
+	color: #000;
+}
+.block_items {
+	list-style: none;
+	margin-top: 30vh;
+	width: 100%;
+}
+.block_items li span {
+	font-size: 35px;
+	margin-right: 15px;
+	font-weight: 600;
+	color: #FFBE10;
+	display: block;
+	margin-top: 25px;
+	float: left;
+}
+.list_text {
+	display: block;
+	width: 100%;
+	/* border: 1px solid red; */
+	/* float: right; */
+}
+.img_div img {
+	width: 100%;
+	height: 100%;
+}
