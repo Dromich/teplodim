@@ -230,20 +230,84 @@ body {
 	height: 100%;
 }
 .items_title_l {
-	position: absolute;
 	left: -12%;
 	z-index: 2;
 	background-color: #FFBE10;
 	text-transform: uppercase;
 	font-weight: 600;
 	padding: 10px;
-	margin-top: 10%;
+	margin-top: 5%;
 	color: #000;
+	margin-left: -25%;
+	width: 80%;
+	margin-bottom: 10%;
 }
 .items_title_l h2 {
 	font-size: 38px;
 	color: #000;
 }
 .tovary {
-	margin-top: 35%;
+	margin-top: 38%;
+}
+
+.servise_item ul {
+	/* width: 80%; */
+	display: block;
+	margin: 15px auto;
+	list-style: none;
+	font-size: 19px;
+	color: #000;
+	padding: 0;
+}
+.servise_item h3 img {
+	margin-right: 10px;
+	vertical-align: middle;
+}
+
+.servise_item ul li::before {
+	content: '';
+	width: 10px;
+	height: 10px;
+	background-color: #FFBE10;
+	display: inline-block;
+	margin-right: 10px;
+	border-radius: 50%;
+}
+.action_ttl {
+	text-align: center;
+	font-size: 6rem;
+	padding: 0;
+	margin: 10px auto;
+	text-transform: uppercase;
+}
+.akciya h3 {
+	color: red;
+	font-size: 4rem;
+	text-transform: uppercase;
+}
+.act_btn {
+	text-align: center;
+	color: #0854B6;
+	text-transform: uppercase;
+	font-size: 3rem;
+}
+.act_btn span {
+	background-color: #0854B6;
+	padding: 15px;
+	margin-left: 10px;
+	color: #fff;
+	cursor: pointer;
+	transition: all .5s linear;
+}
+.act_btn span:hover {
+transform: scale(1.2);
+}
+/*#perevagi {
+	background-image: url(../img/t_2_180.png);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	background-size: auto;
+}*/
+.perevag_item p {
+	max-width: 80%;
 }
