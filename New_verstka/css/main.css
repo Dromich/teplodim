@@ -383,3 +383,68 @@ transform: scale(1.2);
 	text-transform: uppercase;
 	margin-top: 4%;
 }
+.ug-thumb-wrapper {
+	display: inline-block;
+	width: 19%;
+	padding: .5%;
+}
+.ug-thumb-wrapper img {
+	vertical-align: baseline;
+}
+#partners h2 {
+	text-align: center;
+	font-size: 3rem;
+	text-transform: uppercase;
+	margin: 28px auto;
+	background-image: url(../img/zag_bg.png);
+	padding: 15px;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+#partners h2 span {
+	color: #0854B6;
+}
+
+#contacts {
+	padding-top: 2%;
+	padding-bottom: 5%;
+	background-image: url(../img/t_2.png), url(../img/bg_2.jpg);
+	background-repeat: no-repeat;
+	background-position: right bottom, center center;
+	background-size: auto, cover;
+}
+#mapdiv {
+	width: 100%;
+	height: 650px;
+}
+#OL_Icon_22 img {
+	width: 50px !important;
+	height: 50px !important;
+}
+.cont_inf {
+	list-style: none;
+	font-size: 20px;
+	color: #333;
+	margin-top: 25%;
+}
+.cont_inf li {
+	margin: 10px auto;
+}
+.cont_inf a {
+	color: #333;
+}
+.service_title2 {
+	text-align: center;
+	font-size: 3rem;
+	text-transform: uppercase;
+	color: #333;
+	background-image: ;
+}
+footer {
+	padding: 15px;
+	text-align: center;
+	background-color: #0854B6;
+}
+footer a{
+	color: #ffffff;
+}
