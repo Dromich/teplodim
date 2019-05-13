@@ -141,7 +141,8 @@ body {
 	max-width: 30%;
 	text-align: left;
 }
-.first_slide_ttl::after {
+
+/*.first_slide_ttl::after {
 	content: '.';
 	background-color: #0854B6;
 	width: 100%;
@@ -151,7 +152,7 @@ body {
 	right: -10%;
 	z-index: -1;
 	padding: 10px;
-}
+}*/
 .first_slide_ttl p {
 	margin-left: -50px;
 	padding: 20px;
